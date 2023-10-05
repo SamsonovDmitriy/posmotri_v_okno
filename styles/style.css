@@ -114,7 +114,6 @@ ol {
 	font-size: inherit;
 	line-height: inherit;
 	background-color: transparent;
-	cursor: pointer;
 	appearance: none;
 }
 
@@ -150,6 +149,11 @@ ol {
 	height: 19px;
 	border: 1px solid #fff;
 	padding: 2px;
+	cursor: pointer;
+}
+
+.search-form__label-text:hover {
+	cursor: pointer;
 }
 
 .search-form__pseudo-checkbox:active {
